@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ body{
+  background-color: blueviolet;
+ }
+
+ .mycontainer{
+  max-width: 500px;
+ }
+
+.inputext{
+  border: 2px solid black;
+  width: 75%;
+  margin-right: 15px;
+  padding: 8px;
+  color: #000;
+}
+
+.mycontainer fieldset.rangeSlider input{
+  display: block;
+  width: 100%;
+}
+
+.mycontainer fieldset  label{
+  padding-left: 8px;
+}
